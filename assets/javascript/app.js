@@ -54,7 +54,7 @@ var submitButton = document.getElementById('submit');
     clearInterval()
       //add the timer here as well
       var minute = 0;
-      var sec = 10;
+      var sec = 30;
       setInterval(function() {
         document.getElementById("timer").innerHTML = "QUIZ ENDS IN " + minute + " : " + sec;
         sec--;
